@@ -10,15 +10,16 @@
 
     <link rel="stylesheet" href="style.css">
 
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap" rel="stylesheet">
     <title>DIETNESS</title>
   </head>
   <body>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light py-md-4">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="/docs/4.5/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="" loading="lazy">
+                <img src="assest/logo.svg" width="183" height="30" alt="" loading="lazy">
               </a>
-            <a class="navbar-brand" href="#">DIETNESS</a>
+            <!-- <a class="navbar-brand" href="#">DIETNESS</a> -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -28,24 +29,22 @@
                   <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Features</a>
+                  <a class="nav-link" href="#">Store</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Pricing</a>
+                  <a class="nav-link" href="#">Contact us</a>
                 </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown link
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About us</a>
+                </li>
+              </ul>
+              <ul class="navbar-nav" id="nav-link-right">
+                <li class="nav-item">
+                    <a class="nav-link"  href="#">عربي</a>
                 </li>
               </ul>
             </div>
-
+            
         </div>
     </nav>
 
@@ -59,8 +58,8 @@
                         <h1>With <span class="slider__text--primary-color">DIETNESS</span></h1>
                         <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </h4>
                         <div class="slider__btns">
-                            <button type="button" class="btn slider__button--primary">Contact us</button>
-                            <button type="button" class="btn slider__button--regular">more</button>
+                            <button type="button" class="btn-lg btn slider__button--primary">Contact us</button>
+                            <button type="button" class="btn-lg btn-outline-light btn slider__button--regular">more</button>
                         </div>
                     </div>
                 </div>
@@ -69,9 +68,7 @@
 	
             <input type="radio" id="i1" name="images" checked />
             <input type="radio" id="i2" name="images" />
-            <input type="radio" id="i3" name="images" />
-            <input type="radio" id="i4" name="images" />
-            <input type="radio" id="i5" name="images" />	
+            <input type="radio" id="i3" name="images" />	
             
             <div class="slide_img" id="one">			
                     <img src="assest/slider-01.png">            
@@ -85,20 +82,10 @@
                     <img src="https://wowslider.net/local-sliders/demo-10/data1/images/idaho239691_1920.jpg">
             </div>
         
-            <div class="slide_img" id="four">
-                    <img src="http://wallpaperswide.com/download/big_hero_6_baymax-wallpaper-1152x720.jpg">
-            </div>
-        
-            <div class="slide_img" id="five">
-                    <img src="http://www.wallpapereast.com/static/images/toys-wallpaper-hd-16339-17046-hd-wallpapers.jpg">
-            </div>
-        
             <div id="nav_slide">
                 <label for="i1" class="dots" id="dot1"></label>
                 <label for="i2" class="dots" id="dot2"></label>
                 <label for="i3" class="dots" id="dot3"></label>
-                <label for="i4" class="dots" id="dot4"></label>
-                <label for="i5" class="dots" id="dot5"></label>
             </div>
                 
         </div>
@@ -109,11 +96,5 @@
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-
-    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-    -->
   </body>
 </html>
