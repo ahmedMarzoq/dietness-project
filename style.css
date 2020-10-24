@@ -212,12 +212,14 @@ body, html{
     font-size: 1.5em;
 }
 
+
 .slider__button--primary{
     background-color: #feca5c;
     height: 80;
     width: 278;
     color: black;
 }
+
 
 .slider__button--regular{
     background-color: rgba(0, 0, 0,0);
@@ -259,4 +261,30 @@ body, html{
 	/* background-color: #333;
     color: #fff; */
     border-bottom: 5px solid #feca5c;
+}
+
+.main--text{
+    height: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: 1s ease-out 0s 1 slideInFromBottom;
+}
+.enter__animation{
+    animation: 1s ease-out 0s 1 slideInFromBottom;
+}
+
+.main--text-border{
+    padding: .2em;
+    border-bottom: 5px solid #feca5c;
+    
+}
+
+@keyframes slideInFromBottom {
+    0% {
+        transform: translateY(-10%);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
