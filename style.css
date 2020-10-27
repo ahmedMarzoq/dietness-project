@@ -286,6 +286,11 @@ body, html{
     padding-top: .5em;
     text-align: center;
 }
+
+.zoom--animation:hover {
+    transform: scale(1.02) !important; /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transition: transform .2s !important; /* Animation */
+  }
 @media screen and (max-width: 685px){
 	.slider__container{
 		border: none;
