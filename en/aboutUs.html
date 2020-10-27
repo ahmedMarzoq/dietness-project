@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -22,7 +22,7 @@
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light py-md-4">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="assest/logo.svg" width="183" height="30" alt="" loading="lazy">
+                <img src="../assest/logo.svg" width="183" height="30" alt="" loading="lazy">
             </a>
             <!-- <a class="navbar-brand" href="#">DIETNESS</a> -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -31,17 +31,17 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="en/store.html">Store</a>
+                        <a class="nav-link" href="store.html">Store</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact us</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="en/aboutUs.html">About us</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="aboutUs.html">About us</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav" id="nav-link-right">
@@ -55,101 +55,24 @@
     </nav>
 
     <div id="main__content">
-        <main>
-            <div class="slider__container">
-
-                <div class="slider__text">
-                    <div class="container">
-                        <div class="slider__text--in">
-                            <h1>With <span class="slider__text--primary-color">DIETNESS</span></h1>
-                            <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </h4>
-                            <div class="slider__btns">
-                                <button type="button" class="btn-lg btn btn-warning slider__button--primary">Contact
-                                    us</button>
-                                <button type="button"
-                                    class="btn-lg btn-outline-light btn slider__button--regular">more</button>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-                <input type="radio" id="i1" name="images" checked />
-                <input type="radio" id="i2" name="images" />
-                <input type="radio" id="i3" name="images" />
-
-                <div class="slide_img" id="one">
-                    <img src="assest/slider-02.png">
-                </div>
-
-                <div class="slide_img" id="two">
-                    <img src="https://wowslider.net/local-sliders/demo-10/data1/images/idaho239691_1920.jpg">
-                </div>
-
-                <div class="slide_img" id="three">
-                    <img src="https://wowslider.net/local-sliders/demo-10/data1/images/idaho239691_1920.jpg">
-                </div>
-
-                <div id="nav_slide">
-                    <label for="i1" class="dots" id="dot1"></label>
-                    <label for="i2" class="dots" id="dot2"></label>
-                    <label for="i3" class="dots" id="dot3"></label>
-                </div>
-
-            </div>
-        </main>
-
         <section>
             <div>
-                <div data-aos="fade-down" data-aos-once="false" data-aos-duration="1000" class="main--text">
-                    <h1 class="main--text-border">package</h1>
-                </div>
-                <div class="container">
-                    <div class="card-deck">
-                        <div class="card text-center shadow-sm" data-aos-once="false" data-aos="zoom-in-up"
-                            data-aos-duration="1000">
-                            <img src="assest/package-card-01.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <a href="#" class="btn btn-warning slider__button--primary">see more</a>
-                            </div>
-                        </div>
-                        <div class="card text-center shadow-sm" data-aos-once="false" data-aos="zoom-in-up"
-                            data-aos-duration="1000">
-                            <img src="assest/package-card-02.png " class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <a href="#" class="btn btn-warning slider__button--primary">see more</a>
-                            </div>
-                        </div>
-                        <div class="card text-center shadow-sm" data-aos-once="false" data-aos="zoom-in-up"
-                            data-aos-duration="1000">
-                            <img src="assest/package-card-01.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <a href="#" class="btn btn-warning slider__button--primary">see more</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <div >
                 <div data-aos="fade-down" data-aos-once="false" data-aos-duration="1000" class="main--text">
                     <h1 class="main--text-border">Why us ?</h1>
                 </div>
                 <div class="container " data-aos="zoom-in-up" data-aos-once="false" data-aos-duration="1000">
                     <div class="container shadow-sm whyus__card rounded">
-                        <div class="row pr-0 whyUs rounded">
-                            <div class="col-md-6" id="accordionExample">
+                        <div class="row pr-0">
+                            <div class="col-md-6 whyUs rounded" id="accordionExample">
                                 <ul class="list-unstyled my-4 pl-5">
                                     <li class="my-2">
                                         <a class="btn btn-lg text-left" role="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="true" aria-controls="collapseExample">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="38" height="16" viewBox="0 0 50 16">
                                                 <rect id="Rectangle_22" data-name="Rectangle 22" width="38" height="5" rx="2"/>
                                                 <rect id="Rectangle_23" data-name="Rectangle 23" width="38" height="5" rx="2" transform="translate(0 11)"/>
-                                            </svg>Lorem Ipsum is simply dummy
+                                              </svg>Lorem Ipsum is simply dummy
                                             </a>
-                                        <div class="collapse show my-4 pl-5 whyus__collapes"id="collapseExample" data-parent="#accordionExample" >
+                                          <div class="collapse show my-4 pl-5 whyus__collapes"id="collapseExample" data-parent="#accordionExample" >
                                             Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
                                         </div>
                                     </li>
@@ -158,9 +81,9 @@
                                             <svg xmlns="http://www.w3.org/2000/svg" width="38" height="16" viewBox="0 0 50 16">
                                                 <rect id="Rectangle_22" data-name="Rectangle 22" width="38" height="5" rx="2"/>
                                                 <rect id="Rectangle_23" data-name="Rectangle 23" width="38" height="5" rx="2" transform="translate(0 11)"/>
-                                            </svg>Lorem Ipsum is simply dummy
+                                              </svg>Lorem Ipsum is simply dummy
                                             </a >
-                                        <div class="collapse my-4 pl-5 whyus__collapes" id="collapseExample1" data-parent="#accordionExample">
+                                          <div class="collapse my-4 pl-5 whyus__collapes" id="collapseExample1" data-parent="#accordionExample">
                                             Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
             
                                         </div>
@@ -170,9 +93,9 @@
                                             <svg xmlns="http://www.w3.org/2000/svg" width="38" height="16" viewBox="0 0 50 16">
                                                 <rect id="Rectangle_22" data-name="Rectangle 22" width="38" height="5" rx="2"/>
                                                 <rect id="Rectangle_23" data-name="Rectangle 23" width="38" height="5" rx="2" transform="translate(0 11)"/>
-                                            </svg>Lorem Ipsum is simply dummy
+                                              </svg>Lorem Ipsum is simply dummy
                                             </a>
-                                        <div class="collapse my-4 pl-5 whyus__collapes" id="collapseExample2" data-parent="#accordionExample">
+                                          <div class="collapse my-4 pl-5 whyus__collapes" id="collapseExample2" data-parent="#accordionExample">
                                             Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
             
                                         </div>
@@ -182,9 +105,9 @@
                                             <svg xmlns="http://www.w3.org/2000/svg" width="38" height="16" viewBox="0 0 50 16">
                                                 <rect id="Rectangle_22" data-name="Rectangle 22" width="38" height="5" rx="2"/>
                                                 <rect id="Rectangle_23" data-name="Rectangle 23" width="38" height="5" rx="2" transform="translate(0 11)"/>
-                                            </svg>Lorem Ipsum is simply dummy
+                                              </svg>Lorem Ipsum is simply dummy
                                             </a>
-                                        <div class="collapse my-4 pl-5 whyus__collapes" id="collapseExample3" data-parent="#accordionExample">
+                                          <div class="collapse my-4 pl-5 whyus__collapes" id="collapseExample3" data-parent="#accordionExample">
                                             Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
             
                                         </div>
@@ -194,9 +117,9 @@
                                             <svg xmlns="http://www.w3.org/2000/svg" width="38" height="16" viewBox="0 0 50 16">
                                                 <rect id="Rectangle_22" data-name="Rectangle 22" width="38" height="5" rx="2"/>
                                                 <rect id="Rectangle_23" data-name="Rectangle 23" width="38" height="5" rx="2" transform="translate(0 11)"/>
-                                            </svg>Lorem Ipsum is simply dummy
+                                              </svg>Lorem Ipsum is simply dummy
                                             </a>
-                                        <div class="collapse my-4 pl-5 whyus__collapes" id="collapseExample4" data-parent="#accordionExample">
+                                          <div class="collapse my-4 pl-5 whyus__collapes" id="collapseExample4" data-parent="#accordionExample">
                                             Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
             
                                         </div>
@@ -204,7 +127,7 @@
                                 </ul>
                             </div>
                             <div class="col-lg-6 pl-0 pr-0 ml-sm-0 ml-xm-0 pl-sm-0 pl-xm-0">
-                                <img src="assest/why-us.png" alt="..." class="rounded-right img-fluid ">
+                                <img src="../assest/why-us.png" alt="..." class="rounded-right img-fluid ">
                             </div>
                         </div>
                     </div>

@@ -287,10 +287,52 @@ body, html{
     text-align: center;
 }
 
-.zoom--animation:hover {
-    transform: scale(1.02) !important; /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-    transition: transform .2s !important; /* Animation */
-  }
+
+.card:hover{
+    transform: scale(1.03) !important;
+ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06) !important;
+}
+
+/* ----- store page css start ----- */
+
+.store__button--primary{
+    background-color: #feca5c;
+    color: black;
+    border: 0px;
+}
+
+.store__button--nonPrimary{
+    background-color: white;
+    border: 0px;
+    color: black;
+}
+
+.main__content{
+    background-color: #f8f9fa93;
+}
+body{
+    background-color: #f8f9fa93;
+}
+
+.store__img{
+    transition: 1000ms;
+}
+
+.store__img:hover{
+    transform: scale(1.03) !important;
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06) !important;
+}
+
+/* ----- store page css end ----- */
+
+.navbar{
+    background-color: white !important;
+}
+
+.whyUs{
+    background-color: white;
+    
+}
 @media screen and (max-width: 685px){
 	.slider__container{
 		border: none;
