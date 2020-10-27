@@ -255,6 +255,7 @@ body, html{
 .whyus__card{
     max-width: 900px;
     margin-bottom: 2em;
+    transition: 2000ms;
     /* padding-left: 4em; */
 }
 
@@ -337,7 +338,14 @@ body{
 .contactUsIcon--color{
     color: gray;
 }
-@media screen and (max-width: 685px){
+
+
+.whyUs__img--rounded{
+    border-radius: 0px 5px 5px 0px;
+}
+
+/*  -----  Medium  -----  */
+@media screen and (max-width: 720px){
 	.slider__container{
 		border: none;
 		width: 100%;
@@ -391,5 +399,17 @@ body{
         text-align: center;
     }
 
+    .whyUs__img--rounded{
+        border-radius: 0px 0px 5px 5px;
+    }
 
+
+}
+
+/*  -----  Medium  -----  */
+@media screen and (max-width: 960px){
+
+    .whyUs__img--rounded{
+        border-radius: 0px 0px 5px 5px;
+    }
 }
