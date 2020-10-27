@@ -110,7 +110,8 @@
                             data-aos-duration="1000">
                             <img src="assest/package-card-01.png" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <a href="#" class="btn btn-warning slider__button--primary">see more</a>
+                                <button class="btn btn-warning slider__button--primary" type="button"
+                                    data-toggle="modal" data-target="#myModal">see more</button>
                             </div>
                         </div>
                         <div class="card text-center shadow-sm" data-aos-once="false" data-aos="zoom-in-up"
@@ -125,6 +126,48 @@
                             <img src="assest/package-card-01.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <a href="#" class="btn btn-warning slider__button--primary">see more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" role="dialog">
+                    <div class="modal-dialog modal-dialog-centered modal-lg ">
+                        <div class="modal-content">
+                            <!-- <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                <p>This is a small modal.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div> -->
+                            <button type="button" class="close text-right p-2" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            <div class="row">
+                                <div class="col-lg-4 col-sm modal__leftSide">
+                                    <img class="rounded store__img " data-aos-once="false" data-aos="zoom-in-up"
+                                        data-aos-duration="1000" src="../assest/package-card-01.png" alt="Lights"
+                                        style="width:100%">
+                                </div>
+                                <div class="col-lg-7 col-sm modal__rightSide">
+                                    <div class="vertical-center">
+                                        <h3 class="">TIM'S BURGER</h3>
+                                        <h5>20 D . K</h5>
+                                        <hr>
+
+                                        <div class="btn-group pr-3 py-sm-2" role="group" aria-label="Basic example">
+                                            <button type="button" class="btn btn-outline-dark">-</button>
+                                            <button type="button" class="btn btn-outline-dark">200</button>
+                                            <button type="button" class="btn btn-outline-dark">+</button>
+                                        </div>
+                                        <button type="button" class="btn btn-warning px-3 py-sm-2">Add to cart</button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
