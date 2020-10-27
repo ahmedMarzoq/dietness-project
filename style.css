@@ -1,25 +1,4 @@
-.test{
-    height: 3000px;
-    background-color: aquamarine;
-}
-@font-face {
-    font-family: SFProText;
-    src: url(fonts/FontsFree-Net-SFProText-Semibold.ttf);
-  }
-
-/* slider start*/
-/* @import url('https://fonts.googleapis.com/css?family=Just+Another+Hand');
-
-body, html{
-		width: 100%;
-		height: 100%;	
-		margin: 0;
-		font-family: 'Just Another Hand', cursive;
-		overflow-X: hidden;
-    } */
-    
 * {
-    /* font-family: SFProText; */
     font-family: 'Cairo', sans-serif;
 }
 
@@ -448,7 +427,7 @@ body{
     }
 }
 
-/*  -----  Large  -----  */
+/*  -----  Small  -----  */
 @media screen and (max-width: 576px){
 
     .whyUs__img--rounded{
@@ -465,4 +444,7 @@ body{
         position: relative;
         margin: .9em;
       }
+}
+#main__content{
+    min-height: 83vh;
 }
