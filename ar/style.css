@@ -439,3 +439,19 @@ body{
 #main__content{
     min-height: 83vh;
 }
+
+.minusBtn{
+    border-radius: 0px 5px 5px 0px !important;
+    border-left: 0px ;
+}
+
+.plusBtn{
+    border-radius: 5px 0px 0px 5px !important;
+    border-right: 0px ;
+}
+
+.numBtn{
+    border: 1px solid black !important;
+    color: black !important;
+}
+
