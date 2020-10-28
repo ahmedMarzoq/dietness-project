@@ -383,7 +383,7 @@ body{
 
 .modal__leftSide{
     padding: 2em;
-    border-right: rgba(167, 167, 167,.5) solid 1px;
+    border-left: rgba(167, 167, 167,.5) solid 1px;
     margin: 1.5em;
     transition: 2000ms;
 }
@@ -407,7 +407,7 @@ body{
         /* border-bottom: gray solid 1px; */
         margin: .5em;
         transition: 2000ms;
-        padding-top: 4em;
+        /* padding-top: 4em; */
     }
     .vertical-center {
         margin: .5em;
