@@ -296,11 +296,7 @@ body{
 		padding-bottom: 55%; 
 	}	
 	
-	label span { font-size: 50pt; }
-	
-	.prev, .next{
-		width: 15%;
-	}	
+	/* lab             */
 	#nav_slide .dots{
 		width: 20px;
 		height: 5px;
