@@ -116,7 +116,16 @@
 .slide_img {
     z-index: -1;
 }
+.ch {
+    z-index: -1;
+}
 
+#i1:checked ~ #one,
+#i2:checked ~ #two,
+#i3:checked ~ #three {
+    z-index: 9;
+    animation: scroll 1s ease-in-out;
+}
 #i1:checked ~ #one,
 #i2:checked ~ #two,
 #i3:checked ~ #three {
@@ -204,6 +213,38 @@
 .slider__btns {
     margin-top: 50px;
 }
+
+.prev, .next{
+  width: 10%;
+  height: 100%;
+  position: absolute;
+  top:0; 
+  /* background-color: rgba(88, 88, 88,.2); */
+  color:rgba(244, 244, 244,.9);
+  z-index: 99;
+  transition: .45s;
+  cursor: pointer;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-25%);
+  /* border-radius:100% ; */
+}
+
+.next{right:0;}
+.prev{left:0;}
+
+label span{
+  position: absolute;
+  font-size: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* .prev:hover, .next:hover{
+  transition: .3s;
+  background-color: rgba(88, 88, 89,.8);
+  color: #ffffff; 
+} */
 
 /* slider - end */
 
@@ -299,23 +340,21 @@ body {
     padding-bottom: 55%;
   }
 
-  label span {
+  /* label span {
     font-size: 50pt;
   }
 
   .prev,
   .next {
     width: 15%;
-  }
+  } */
   #nav_slide .dots {
     width: 20px;
     height: 5px;
   }
   #i1:checked ~ #nav_slide #dot1,
   #i2:checked ~ #nav_slide #dot2,
-  #i3:checked ~ #nav_slide #dot3,
-  #i4:checked ~ #nav_slide #dot4,
-  #i5:checked ~ #nav_slide #dot5 {
+  #i3:checked ~ #nav_slide #dot3 {
     background-color: #feca5c;
     width: 45px;
     height: 5px;
