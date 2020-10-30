@@ -125,15 +125,15 @@
         <section>
             <div>
                 <!-- section tilte -->
-                <div data-aos="fade-down" data-aos-once="false" data-aos-duration="1000" class="main--text">
+                <div data-aos="fade-down" data-aos-once="true" data-aos-duration="1000" class="main--text">
                     <h1 class="main--text-border">Package</h1>
                 </div>
                 <!-- cards container -->
                 <div class="container">
                     <div class="card-deck">
                         <!-- card number 1 -->
-                        <div class="card text-center shadow-sm" data-aos-once="false" data-aos="zoom-in-up"
-                            data-aos-duration="1000">
+                        <div type="button" data-toggle="modal" data-target="#myModal" class="card text-center shadow-sm"
+                            data-aos-once="true" data-aos="zoom-in-up" data-aos-duration="1000">
                             <img src="assest/package-card-01.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <button class="btn btn-warning slider__button--primary" type="button"
@@ -141,8 +141,8 @@
                             </div>
                         </div>
                         <!-- card number 2 -->
-                        <div class="card text-center shadow-sm" data-aos-once="false" data-aos="zoom-in-up"
-                            data-aos-duration="1000">
+                        <div type="button" data-toggle="modal" data-target="#myModal" class="card text-center shadow-sm"
+                            data-aos-once="true" data-aos="zoom-in-up" data-aos-duration="1000">
                             <img src="assest/package-card-02.png " class="card-img-top" alt="...">
                             <div class="card-body">
                                 <button class="btn btn-warning slider__button--primary" type="button"
@@ -150,8 +150,8 @@
                             </div>
                         </div>
                         <!-- card number 3 -->
-                        <div class="card text-center shadow-sm" data-aos-once="false" data-aos="zoom-in-up"
-                            data-aos-duration="1000">
+                        <div type="button" data-toggle="modal" data-target="#myModal" class="card text-center shadow-sm"
+                            data-aos-once="true" data-aos="zoom-in-up" data-aos-duration="1000">
                             <img src="assest/package-card-01.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <button class="btn btn-warning slider__button--primary" type="button"
@@ -174,7 +174,7 @@
                             <div class="row">
                                 <!-- left side section - image section -->
                                 <div class="col-lg-4 col-sm modal__leftSide">
-                                    <img class="rounded store__img" data-aos-once="false" data-aos="zoom-in-up"
+                                    <img class="rounded store__img" data-aos-once="true" data-aos="zoom-in-up"
                                         data-aos-duration="1000" src="assest/popup-01.jpeg" alt="Lights"
                                         style="width:100%">
                                 </div>
@@ -185,12 +185,34 @@
                                         <h5>20 D . K</h5>
                                         <hr>
                                         <h6>Tim's Burger, Kuwait. 28K likes. Fresh beef.</h6>
+                                        <div class="d-block my-2 ">
+                                            <div class="custom-control custom-radio custom-control-inline">
+                                                <input type="radio" id="customRadioInline1" name="customRadioInline1"
+                                                    class="custom-control-input">
+                                                <label class="custom-control-label" for="customRadioInline1">100
+                                                    gm</label>
+                                            </div>
+                                            <div class="custom-control custom-radio custom-control-inline">
+                                                <input type="radio" id="customRadioInline2" name="customRadioInline1"
+                                                    class="custom-control-input">
+                                                <label class="custom-control-label" for="customRadioInline2">150
+                                                    gm</label>
+                                            </div>
+                                            <div class="custom-control custom-radio custom-control-inline">
+                                                <input type="radio" id="customRadioInline3" name="customRadioInline1"
+                                                    class="custom-control-input">
+                                                <label class="custom-control-label" for="customRadioInline3">200
+                                                    gm</label>
+                                            </div>
+                                        </div>
                                         <div class="btn-group mr-3 my-sm-2" role="group" aria-label="Basic example">
                                             <button type="button" class="btn btn-outline-dark">-</button>
                                             <button type="button" class="btn btn-outline-dark">200</button>
                                             <button type="button" class="btn btn-outline-dark">+</button>
                                         </div>
-                                        <button type="button" class="btn btn-warning mx-3 my-sm-2 ml-sm-0 ml-md-0 px-md-3">Add to cart</button>
+                                        <button type="button"
+                                            class="btn btn-warning mx-3 my-sm-2 ml-sm-0 ml-md-0 px-md-3">Add to
+                                            cart</button>
                                     </div>
                                 </div>
                             </div>
@@ -205,10 +227,10 @@
         <section>
 
             <!-- Why Us main -->
-            <div data-aos="fade-down" data-aos-once="false" data-aos-duration="1000" class="main--text">
+            <div data-aos="fade-down" data-aos-once="true" data-aos-duration="1000" class="main--text">
                 <h1 class="main--text-border">Why us ?</h1>
             </div>
-            <div class="container " data-aos="zoom-in-up" data-aos-once="false" data-aos-duration="1000">
+            <div class="container " data-aos="zoom-in-up" data-aos-once="true" data-aos-duration="1000">
                 <div class="container shadow-sm whyus__card rounded">
                     <div class="row pr-0 whyUs rounded">
                         <div class="col-md col-lg-6" id="accordionExample">
@@ -328,7 +350,7 @@
             +202020202020</p>
         <p>DIETNESS © 2020</p>
         <p>
-            <i class="fab fa-instagram fa-lg m-1" ></i>
+            <i class="fab fa-instagram fa-lg m-1"></i>
             <i class="fab fa-twitter fa-lg m-1"></i>
         </p>
     </footer>
